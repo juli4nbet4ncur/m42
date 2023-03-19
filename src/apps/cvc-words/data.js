@@ -25,7 +25,7 @@ export default [
   },
   {
     title: 'POT',
-    data: ['🥘'],
+    data: ['🌱🧺'],
   },
   {
     title: 'BAT',
@@ -85,7 +85,7 @@ export default [
   },
   {
     title: 'HAM',
-    data: ['🥩'],
+    data: ['🐖🥩'],
   },
   {
     title: 'RAT',
