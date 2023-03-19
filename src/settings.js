@@ -1,19 +1,19 @@
 module.exports = {
-  repository: 'https://github.com/rtivital/omatsuri',
-  bugs: 'https://github.com/rtivital/omatsuri/issues/new',
+  repository: 'https://github.com/juli4nbet4ncur/m42',
+  bugs: 'https://github.com/juli4nbet4ncur/m42/issues/new',
 
   meta: [
     { internal: true, to: '/about', label: 'About' },
     {
-      href: 'https://github.com/rtivital/omatsuri/issues/new',
+      href: 'https://github.com/juli4nbet4ncur/m42/issues/new',
       label: 'Report issue',
     },
     {
-      href: 'https://github.com/rtivital/omatsuri/blob/master/CONTRIBUTING.md',
+      href: 'https://github.com/juli4nbet4ncur/m42/blob/master/CONTRIBUTING.md',
       label: 'Contribute',
     },
     {
-      href: 'https://github.com/rtivital/omatsuri/blob/master/CHANGELOG.md',
+      href: 'https://github.com/juli4nbet4ncur/m42/blob/master/CHANGELOG.md',
       label: 'Changelog',
     },
   ],
@@ -44,6 +44,11 @@ module.exports = {
 
   tools: [
     {
+      link: '/cvc-words',
+      name: 'CVC Words',
+      description: 'Flip cards to practice CVC words pattern',
+    },
+    /* {
       link: '/triangle-generator',
       name: 'Triangle generator',
       description: 'Generate css triangles styles for elements and pseudo-elements',
@@ -117,6 +122,6 @@ module.exports = {
       link: '/events-keycode',
       name: 'Keyboard events codes',
       description: 'JavaScript events keycode values',
-    },
+    }, */
   ],
 };

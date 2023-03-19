@@ -9,6 +9,7 @@ import Index from './pages/index/Index';
 import About from './pages/about/About';
 import NotFound from './pages/not-found/NotFound';
 
+import CvcWords from './apps/cvc-words/CvcWords';
 import TriangleGenerator from './apps/triangle-generator/TriangleGenerator';
 import LoremIpsum from './apps/lorem-ipsum/LoremIpsum';
 import SvgCompressor from './apps/svg-compressor/SvgCompressor';
@@ -32,6 +33,7 @@ function App() {
           <Route>
             <AppContainer>
               <Switch>
+                <Route path="/cvc-words" exact component={CvcWords} />
                 <Route path="/triangle-generator" exact component={TriangleGenerator} />
                 <Route path="/lorem-ipsum" exact component={LoremIpsum} />
                 <Route path="/svg-compressor" exact component={SvgCompressor} />

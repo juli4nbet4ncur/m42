@@ -18,8 +18,8 @@ function generateCssExample(content) {
 export default function B64Encoding() {
   useDocumentTitle('Base64 encoding');
 
-  const ls = useLocalStorage({ key: '@omatsuri/b64-encoding', delay: 500 });
-  const transmittedValue = useLocalStorage({ key: '@omatsuri/conversion-after-compression/b64' });
+  const ls = useLocalStorage({ key: '@m42/b64-encoding', delay: 500 });
+  const transmittedValue = useLocalStorage({ key: '@m42/conversion-after-compression/b64' });
   const [result, setResult] = useState({ loading: false, error: null, content: ls.retrieve() });
 
   const handleMessage = (event) => {

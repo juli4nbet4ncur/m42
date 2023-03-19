@@ -1,9 +1,9 @@
 {
-  "name": "Omatsuri",
+  "name": "m42",
   "version": "1.0.0",
-  "description": "Open source frontend focused tools",
-  "repository": "https://github.com/rtivital/tools.git",
-  "author": "Vitaly Rtishchev <rtivital@gmail.com>",
+  "description": "Tiny tools to learn",
+  "repository": "https://github.com/juli4nbet4ncur/m42.git",
+  "author": "Julian Betancur <juli4nbet4ncur@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {

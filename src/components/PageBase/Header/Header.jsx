@@ -22,7 +22,7 @@ export default function Header() {
             height={72}
           />
         </Link>
-        <p className={classes.description}>Open source browser tools for everyday use</p>
+        <p className={classes.description}>Tiny tools to learn</p>
       </div>
       <GithubButton />
     </header>

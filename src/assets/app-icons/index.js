@@ -1,3 +1,4 @@
+import cvcWords from './cvc-words.png';
 import triangleGenerator from './triangle-generator.svg';
 import colorShadesGenerator from './color-shades-generator.svg';
 import padeDividers from './page-dividers.svg';
@@ -12,6 +13,7 @@ import eventsKeycode from './events-keycode.svg';
 import gradientGenerator from './gradient-generator.svg';
 
 export default {
+  '/cvc-words': cvcWords,
   '/triangle-generator': triangleGenerator,
   '/color-shades-generator': colorShadesGenerator,
   '/page-dividers': padeDividers,

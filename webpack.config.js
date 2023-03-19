@@ -30,11 +30,11 @@ const templateContent = ({ htmlWebpackPlugin }) => `
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="Progressive Web Application with 12 open source frontend focused tools">
       <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
-      <title>Omatsuri</title>
+      <title>M42</title>
     </head>
     <body>
       <noscript>
-        Enable JavaScript to use Omatsuri
+        Enable JavaScript to use M42
       </noscript>
 
       <div id="app"></div>
@@ -188,7 +188,7 @@ module.exports = {
       : [
         new BundleAnalyzerPlugin({ analyzerMode: analyze ? 'static' : 'disabled' }),
         new MiniCssExtractPlugin(),
-        new CnameWebpackPlugin({ domain: 'omatsuri.app' }),
+        new CnameWebpackPlugin({ domain: 'm42.app' }),
         new OfflinePlugin({ autoUpdate: true, appShell: '/', excludes: ['404.html', 'CNAME'] }),
       ]),
   ],

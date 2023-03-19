@@ -6,7 +6,7 @@ import settings from '../../settings';
 import classes from './Index.styles.less';
 
 export default function Index() {
-  useDocumentTitle('Omatsuri');
+  useDocumentTitle('M42');
 
   const tools = settings.tools.map((tool) => (
     <ToolCard className={classes.tool} key={tool.name} {...tool} />

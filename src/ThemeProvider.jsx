@@ -15,7 +15,7 @@ export function useTheme() {
 }
 
 export default function ThemeProvider({ children }) {
-  const ls = useLocalStorage({ key: '@omatsuri/theme', delay: 10 });
+  const ls = useLocalStorage({ key: '@m42/theme', delay: 10 });
 
   const systemTheme = useColorScheme();
   const [userTheme, setUserTheme] = useState(ls.retrieve() || null);
