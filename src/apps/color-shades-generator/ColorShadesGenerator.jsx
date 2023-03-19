@@ -23,7 +23,7 @@ const INITIAL_VALUES = {
 export default function ColorShadesGenerator() {
   useDocumentTitle('Color shades generator');
 
-  const ls = useLocalStorage({ key: '@omatsuri', delay: 1000 });
+  const ls = useLocalStorage({ key: '@m42', delay: 1000 });
   const initialValues = ls.retrieve() || INITIAL_VALUES;
 
   const [value, setValue] = useState(initialValues.value);

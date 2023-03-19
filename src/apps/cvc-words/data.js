@@ -81,7 +81,7 @@ export default [
   },
   {
     title: 'FAT',
-    data: ['🥓'],
+    data: ['🧈'],
   },
   {
     title: 'HAM',

@@ -14,7 +14,7 @@ const languages = ['.css', '.scss', '.jss'].map((language) => ({
 }));
 
 export default function Code({ values }) {
-  const ls = useLocalStorage({ key: '@omatsuri/triangle-generator/code', delay: 10 });
+  const ls = useLocalStorage({ key: '@m42/triangle-generator/code', delay: 10 });
   const [language, setLanguage] = useState(ls.retrieve() || '.css');
   const [elementExample, pseudoExample] = generateExample(language, values)[1];
 

@@ -13,7 +13,7 @@ export default function LoremIpsum() {
   useDocumentTitle('Lorem ipsum');
 
   const clipboard = useClipboard();
-  const ls = useLocalStorage({ key: '@omatsuri/lorem-ipsum', delay: 1000 });
+  const ls = useLocalStorage({ key: '@m42/lorem-ipsum', delay: 1000 });
   const initialValues = ls.retrieve() || INITIAL_VALUES;
 
   const [type, setType] = useState(initialValues.type || 'lorem');

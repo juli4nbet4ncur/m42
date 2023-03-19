@@ -23,7 +23,7 @@ const INITIAL_VALUES = {
 export default function GradientGenerator() {
   useDocumentTitle('Gradient generator');
 
-  const ls = useLocalStorage({ key: '@omatsuri/gradient-generator', delay: 1000 });
+  const ls = useLocalStorage({ key: '@m42/gradient-generator', delay: 1000 });
   const initialValues = ls.retrieve() || INITIAL_VALUES;
 
   const [values, handlers] = useListState(initialValues.values);

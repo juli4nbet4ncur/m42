@@ -31,7 +31,7 @@ function getActivePredefinedSize({ width, height }) {
 export default function TriangleGenerator() {
   useDocumentTitle('Triangle generator');
 
-  const ls = useLocalStorage({ key: '@omatsuri/triangle-generator', delay: 1000 });
+  const ls = useLocalStorage({ key: '@m42/triangle-generator', delay: 1000 });
   const initialValues = ls.retrieve() || INITIAL_VALUES;
 
   const [direction, onDirectionChange] = useState(initialValues.direction);

@@ -27,8 +27,8 @@ export default function HtmlSymbols() {
 
   const [theme] = useTheme();
   const clipboard = useClipboard({ timeout: 1000 });
-  const lsQuery = useLocalStorage({ key: '@omatsuri/html-symbols/search', delay: 200 });
-  const lsType = useLocalStorage({ key: '@omatsuri/html-symbols/type', delay: 200 });
+  const lsQuery = useLocalStorage({ key: '@m42/html-symbols/search', delay: 200 });
+  const lsType = useLocalStorage({ key: '@m42/html-symbols/type', delay: 200 });
   const [query, setQuery] = useState(lsQuery.retrieve() || '');
   const [type, setType] = useState(lsType.retrieve() || 'Most used');
   const [copiedValue, setCopiedValue] = useState(null);

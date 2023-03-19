@@ -20,7 +20,7 @@ const INITIAL_VALUES = {
 export default function FakeDataGenerator() {
   useDocumentTitle('Fake data generator');
 
-  const ls = useLocalStorage({ key: '@omatsuri/fake-data-generator', delay: 1000 });
+  const ls = useLocalStorage({ key: '@m42/fake-data-generator', delay: 1000 });
   const initialValues = ls.retrieve() || INITIAL_VALUES;
 
   const [fields, setFields] = useState(initialValues.fields);

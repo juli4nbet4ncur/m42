@@ -17,7 +17,7 @@ const INITIAL_PROGRESS_STATE = {
 export default function SvgCompressor() {
   useDocumentTitle('SVG compressor');
 
-  const ls = useLocalStorage({ key: '@omatsuri/svg-compressor', delay: 500 });
+  const ls = useLocalStorage({ key: '@m42/svg-compressor', delay: 500 });
   const [value, setValue] = useState(ls.retrieve() || '');
   const [results, setResults] = useState({});
   const queue = useRef(0);

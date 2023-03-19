@@ -16,7 +16,7 @@ const INITIAL_VALUES = {
 export default function PageDividers() {
   useDocumentTitle('Page dividers');
 
-  const ls = useLocalStorage({ key: '@omatsuri/page-dividers', delay: 1000 });
+  const ls = useLocalStorage({ key: '@m42/page-dividers', delay: 1000 });
   const initialValues = ls.retrieve() || INITIAL_VALUES;
 
   const [type, setType] = useState(initialValues.type);

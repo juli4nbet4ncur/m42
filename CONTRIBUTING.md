@@ -4,7 +4,7 @@ Thanks for taking a look at the project and thinking about contributing! I'm alw
 
 ## Getting started
 
-To start contributing, fork the [original repository](https://github.com/rtivital/omatsuri) and clone it to your computer.
+To start contributing, fork the [original repository](https://github.com/juli4nbet4ncur/m42) and clone it to your computer.
 
 To get started with application locally use these commands:
 
@@ -16,7 +16,7 @@ yarn
 npm start
 ```
 
-After you've finished your changes please create pull request to [original repository](https://github.com/rtivital/omatsuri). I'll review your changes and merge them if everything works fine.
+After you've finished your changes please create pull request to [original repository](https://github.com/juli4nbet4ncur/m42). I'll review your changes and merge them if everything works fine.
 
 ## Previewing production builds
 

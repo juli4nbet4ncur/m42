@@ -10,8 +10,8 @@ const svg2jsx = new Svg2jsxWorker();
 export default function SvgToJsx() {
   useDocumentTitle('SVG to JSX');
 
-  const ls = useLocalStorage({ key: '@omatsuri/svg-to-jsx', delay: 1000 });
-  const transmittedValue = useLocalStorage({ key: '@omatsuri/conversion-after-compression/jsx' });
+  const ls = useLocalStorage({ key: '@m42/svg-to-jsx', delay: 1000 });
+  const transmittedValue = useLocalStorage({ key: '@m42/conversion-after-compression/jsx' });
   const [value, setValue] = useState(transmittedValue.retrieveAndClean() || ls.retrieve() || '');
   const [result, setResult] = useState({ loading: false, error: null, content: null });
 
