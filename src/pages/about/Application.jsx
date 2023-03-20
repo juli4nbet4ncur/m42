@@ -6,9 +6,7 @@ export default function Application() {
     <div>
       <h2>About M42</h2>
       <p>
-        M42 translates to «festival» from Japanese (お祭り) and here we have a small festival
-        of applications. It was built with strong respect to your privacy – you will never see ads
-        and it does not include analytics services (or actually any services at all). You are highly
+        M42 is a nebula of tiny tools for learning purposes. You are highly
         encouraged to explore <a href={settings.repository}>source code</a> and use it in your
         projects.
       </p>

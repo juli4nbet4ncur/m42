@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import cx from 'classnames';
 import { useTheme } from '../../../ThemeProvider';
-import GithubButton from '../../GithubButton/GithubButton';
+import ThemeControl from '../../ThemeControl/ThemeControl';
 import logoText from '../../../assets/logo-text.svg';
 import logoTextWhite from '../../../assets/logo-text-white.svg';
 import classes from './Header.styles.less';
@@ -24,7 +24,7 @@ export default function Header() {
         </Link>
         <p className={classes.description}>Tiny tools to learn</p>
       </div>
-      <GithubButton />
+      <ThemeControl className={classes.themeControl} />
     </header>
   );
 }

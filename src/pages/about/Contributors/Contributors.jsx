@@ -46,7 +46,7 @@ export default function Contributors() {
             </a>
           )}
 
-          {contributor.tg && (
+          {/* {contributor.tg && (
             <a
               className={classes.socialLink}
               href={`https://t.me/${contributor.tg}`}
@@ -55,9 +55,9 @@ export default function Contributors() {
             >
               <img className={classes.icon} src={telegram} alt="Telegram logo" />
             </a>
-          )}
+          )} */}
 
-          {contributor.twitter && (
+          {/* {contributor.twitter && (
             <a
               className={classes.socialLink}
               href={`https://twitter.com/${contributor.twitter}`}
@@ -66,7 +66,7 @@ export default function Contributors() {
             >
               <img className={classes.icon} src={twitter} alt="Twitter logo" />
             </a>
-          )}
+          )} */}
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@ export default function Contributors() {
     <div className={classes[theme]}>
       <h2>Contributors</h2>
       <div className={classes.author}>
-        <img className={classes.image} src={author.avatar} alt="Vitaly Rtishchev" />
+        <img className={classes.image} src={author.avatar} alt="pizaranha" />
         <div className={classes.body}>
           <div className={classes.name}>
             <span>{author.name}</span>
@@ -104,14 +104,14 @@ export default function Contributors() {
               />
             </a>
 
-            <a
+            {/* <a
               className={classes.socialLink}
               href={`https://t.me/${author.tg}`}
               target="_blank"
               rel="noopener noreferrer"
             >
               <img className={classes.icon} src={telegram} alt="Telegram logo" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import cx from 'classnames';
 import { useTheme } from '../../../ThemeProvider';
-import GithubButton from '../../GithubButton/GithubButton';
 import settings from '../../../settings';
 import classes from './Footer.styles.less';
 
@@ -48,9 +47,6 @@ export default function Footer({ className }) {
           </div>
         </div>
 
-        <div className={classes.control}>
-          <GithubButton />
-        </div>
       </div>
     </footer>
   );

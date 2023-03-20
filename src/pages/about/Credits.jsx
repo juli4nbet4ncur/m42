@@ -6,37 +6,35 @@ export default function Credits() {
       <h2>Credits</h2>
       <p>M42 was made possible by these awesome projects and resources:</p>
       <ul>
-        <li>
+      <li>
           <a
-            href="https://www.flaticon.com/authors/freepik"
-            target="_balnk"
+            href="https://omatsuri.app"
+            target="_blank"
             rel="noopener noreferrer"
           >
-            Freepik icons via Flaticon
+            Omatsuri app
           </a>
-          &nbsp;are used for all graphics that you can find on this website. They are free and you
-          can use them in your projects.
+          &nbsp;was used as scaffolding for this project. All the credits to their cool project.
         </li>
         <li>
-          <a href="https://github.com/svg/svgo" target="_balnk" rel="noopener noreferrer">
-            SVGO
-          </a>
-          &nbsp; and{' '}
           <a
-            href="https://github.com/rtivital/svgo-browser"
-            target="_balnk"
+            href="https://emojipedia.org/"
+            target="_blank"
             rel="noopener noreferrer"
           >
-            svgo-browser
-          </a>{' '}
-          tools are used for SVG compression.
+            Emojipedia
+          </a>
+          &nbsp;are used for all graphics that you can find on this website.
         </li>
         <li>
-          Page dividers app was made with help of &nbsp;
-          <a href="https://www.shapedivider.app/" target="_balnk" rel="noopener noreferrer">
-            shapedivider.app
+          <a
+            href="https://codepen.io/juli4nbet4ncur/pen/bGxKoKg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Pamela Dayne at CodePen
           </a>
-          .&nbsp; Check it out for more awesome dividers.
+          &nbsp;Create the awesomeness of the cards for the CVC words tool.
         </li>
       </ul>
     </div>
