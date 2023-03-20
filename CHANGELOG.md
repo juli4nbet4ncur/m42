@@ -2,7 +2,7 @@
 
 M42 is a growing set of tiny tools to learn.
 
-## v1.0.0 – Initial Release – August 2020
+## v1.0.0 – Initial Release – March 2023
 
 Initial release included 1 tool:
 
