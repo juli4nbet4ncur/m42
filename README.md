@@ -2,7 +2,7 @@
 
 ![Logo](./src/assets/logo-text.svg)
 
-M42 is a progressive web application with 12 open source frontend focused tools. M42 translates to «festival» from Japanese (お祭り) and here we have a small festival of applications. It was built with strong respect to your privacy – you will never see ads and it does not include analytics services (or actually any services at all). You are highly encouraged to explore source code and use it in your projects.
+M42 is a progressive web application with tiny tools for learning.
 
 ## Quick links
 
@@ -19,18 +19,7 @@ M42 is a progressive web application with 12 open source frontend focused tools.
 
 ## Included Applications
 
-- CSS Triangle Generator
-- Color Shades Generator
-- Gradient Generator
-- Page Dividers Generator
-- SVG compressor
-- SVG to JSX converter
-- Base64 encoder
-- Realistic Fake Data Generator
-- HTML/CSS Symbols Collection
-- Lorem/Samuel/Poke Ipsum Generator
-- CSS Cursor Properties
-- JavaScript Events Keycodes
+- CVC Words
 
 ## Local development
 
