@@ -6,4 +6,4 @@ M42 is a growing set of tiny tools to learn.
 
 Initial release included 1 tool:
 
-- **CVC Words** allows you to practice CVC words pattern by flipping cards
+- **CVC Words** allows you to practice the CVC word pattern by flipping cards
