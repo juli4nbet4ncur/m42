@@ -43,7 +43,7 @@ module.exports = {
     {
       link: '/cvc-words',
       name: 'CVC Words',
-      description: 'Practice the CVC word pattern by flipping cards',
+      description: 'Flashcards to practice the CVC pattern',
     },
     /* {
       link: '/triangle-generator',
