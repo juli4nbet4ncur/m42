@@ -5,9 +5,27 @@ import CursorControl from './WordControl/WordControl';
 import data from './data';
 import classes from './CvcWords.styles.less';
 
+export function shuffle(array) {
+  let currentIndex = array.length,  randomIndex;
+
+  // While there remain elements to shuffle.
+  while (currentIndex != 0) {
+
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
+
 export default function CvcWords() {
   useDocumentTitle('CVC words');
-
+  shuffle(data);
   const controls = data.map((group) => {
     const values = group.data.map((value) => (
         <CursorControl key={value} value={value}/>

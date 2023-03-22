@@ -99,6 +99,66 @@ export default [
     title: 'RED',
     data: ['🔴'],
   },
+  {
+    title: 'LAP',
+    data: ['🌀'],
+  },
+  {
+    title: 'CAN',
+    data: ['🥫'],
+  },
+  {
+    title: 'MAN',
+    data: ['👨'],
+  },
+  {
+    title: 'PAN',
+    data: ['🍳'],
+  },
+  {
+    title: 'DAD',
+    data: ['👨‍👧‍👦'],
+  },
+  {
+    title: 'MOM',
+    data: ['🤰'],
+  },
+  {
+    title: 'GAS',
+    data: ['⛽'],
+  },
+  {
+    title: 'JET',
+    data: ['🛫'],
+  },
+  {
+    title: 'PET',
+    data: ['🐹🐈🐕‍🦺'],
+  },
+  {
+    title: 'LEG',
+    data: ['🦵'],
+  },
+  {
+    title: 'LIP',
+    data: ['👄'],
+  },
+  {
+    title: 'POP',
+    data: ['💥'],
+  },
+  {
+    title: 'BIT',
+    data: ['🤏'],
+  },
+  {
+    title: 'BOX',
+    data: ['📦'],
+  },
+  {
+    title: 'BUS',
+    data: ['🚌'],
+  },
 /*   {
     title: 'Status',
     data: ['help', 'pointer', 'progress', 'wait', 'context-menu', 'not-allowed'],
