@@ -101,7 +101,7 @@ export default [
   },
   {
     title: 'LAP',
-    data: ['🌀'],
+    data: ['💫'],
   },
   {
     title: 'CAN',
