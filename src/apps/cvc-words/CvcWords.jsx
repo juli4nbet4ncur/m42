@@ -32,7 +32,6 @@ export default function CvcWords() {
     ));
 
     return (
-        
           <div className={classes.flipcard}>
             <div className={classes.flipcard__inner} onContextMenu={(e)=> e.preventDefault()}>
               <div className={classes.__front}>
@@ -49,6 +48,6 @@ export default function CvcWords() {
   return <Background className={classes.wrapper}>
     <div className={classes.flipcards}>
       {controls}
-      </div>
-      </Background>;
+    </div>
+  </Background>;
 }
